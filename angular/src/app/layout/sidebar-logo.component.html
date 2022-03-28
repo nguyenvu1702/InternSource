@@ -1,0 +1,8 @@
+<div>
+    <span class="brand-link bg-dark text-align">
+        <span [routerLink]="['main/tai-san']" class="brand-text font-weight-light">My Project</span>
+    </span>
+    <div (click)="close()" class="mobile-close">
+        <i class="fas fa-times close-item" *ngIf="isMobile"></i>
+    </div>
+</div>

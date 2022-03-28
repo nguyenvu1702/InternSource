@@ -1,0 +1,81 @@
+@import "./scss/mixins";
+@import "./scss/variables";
+@import "./scss/primeng";
+@import "./scss/generate";
+// Modal Start
+.modal-body {
+    padding: 25px;
+}
+
+.fixed-modal-height {
+    max-height: calc(100vh - 215px);
+    overflow-y: auto;
+}
+
+.fixed-modal-height-full {
+    height: calc(100vh - 215px);
+    overflow-y: auto;
+}
+
+// Modal End
+.text-ok {
+    font-weight: normal;
+}
+
+.width-btn-footer {
+    min-width: 70px !important;
+}
+
+.btn-save-background {
+    background-color: #5867dd !important;
+    border-color: #5867dd !important;
+}
+
+.btn-cancle-background {
+    background: white !important;
+    border-color: #ebedf2 !important;
+    color: $text-color !important;
+}
+
+.body {
+    font-family: Quicksand, sans-serif !important;
+}
+
+body .ui-widget {
+    font-family: Quicksand, sans-serif !important;
+    font-size: 16px !important;
+    text-decoration: none;
+}
+
+.visibility-hidden {
+    visibility: hidden !important;
+}
+
+body a {
+    cursor: pointer !important;
+}
+
+// Hiển thị cuộn ngang table
+.hien-thi-cuon-ngang {
+    overflow-x: auto !important;
+}
+
+.text-more {
+    position: relative;
+}
+
+// .dropdown-menu.show {
+//   width: 100%;
+// }
+.ngx-dropzone-label {
+    word-wrap: break-word !important;
+}
+
+.width100 {
+    width: 100% !important;
+}
+
+.nav-sidebar .nav-link p,
+.nav-sidebar .nav-link i {
+    color: #000;
+}

@@ -1,0 +1,15 @@
+<li class="nav-item dropdown nav-user-menu " dropdown>
+    <div class="row" style="float: right;">
+        <a href="javascript:;" class="nav-link m-l-5" dropdownToggle>
+            <img class="user-image img-circle elevation-2" src="assets/img/user.png" alt="User Image" />
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" *dropdownMenu>
+            <a class="dropdown-item" [routerLink]="['update-password']">
+                <i class="fas fa-user-edit"></i> Đổi mật khẩu
+            </a>
+            <a class="dropdown-item" href="javascript:;" (click)="logout()">
+                <i class="fas fa-sign-out-alt"></i> Đăng xuất
+            </a>
+        </div>
+    </div>
+</li>
